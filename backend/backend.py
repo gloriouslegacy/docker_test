@@ -9,6 +9,7 @@ mysql = MySQL()
 
 # 실전에서는 비밀번호 등을 이곳에 입력하지 말 것!
 # 환경변수 등을 활용하세요.
+
 app.config['MYSQL_DATABASE_USER'] = 'mysql_user'
 app.config['MYSQL_DATABASE_PASSWORD'] = 'mysql_password'
 app.config['MYSQL_DATABASE_DB'] = 'visitlog'
